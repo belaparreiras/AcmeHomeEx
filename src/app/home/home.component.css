@@ -1,0 +1,45 @@
+.banner{
+   width: 100%;
+   height: 400px;
+   background-image: url(/assets/banner.jpg);
+   background-size: 100%;
+   background-position: 0px 1200px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+
+} 
+
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.p-banner{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-merch{
+    border-style:solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: white;
+    background-color: transparent;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white;
+    font-weight: bold;
+    height: 35px;
+    margin-top: 10px;
+
+}
+
+.banner-txt{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+    color: white;
+}
